@@ -1,0 +1,22 @@
+.counter {
+  min-height: calc(100vh - 180px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .counter-value {
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .counter-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .counter-btn {
+      margin: 10px;
+    }
+  }
+}
